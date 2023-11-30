@@ -17,10 +17,10 @@
         <nav class="fixed bg-slate-900 flex justify-between items-center px-20 py-5 w-full z-10">
             <h1 class="text-xl font-semibold">Ibnu Khoirul</h1>
             <div class="font-light flex gap-5">
-                <a href="">Home</a> 
-                <a href="">About Me</a>
-                <a href="">Projects</a>
-                <a href="">Contact</a>
+                <a href="" class="hover:text-indigo-400">Home</a> 
+                <a href="" class="hover:text-indigo-400">About Me</a>
+                <a href="" class="hover:text-indigo-400">Projects</a>
+                <a href="" class="hover:text-indigo-400">Contact</a>
             </div>
         </nav>
 
@@ -31,8 +31,8 @@
                     <h1 class="text-7xl font-bold mb-2">Ibnu Khoirul</h1>
                     <p class="text-lg font-light">Freelancer Web Developer & UI/UX Designer</p>
                     <div class="flex gap-5 mt-3">
-                        <a href="" class="bg-indigo-900 px-5 py-2 rounded-lg flex items-center gap-2">About Me <i class="fa-solid fa-user text-sm"></i></a>
-                        <a href="" class="border border-indigo-900 border-2 px-5 py-2 rounded-lg flex items-center gap-2">Projects <i class="fa-solid fa-eye text-sm"></i></a>
+                        <a href="" class="bg-indigo-900 px-5 py-2 rounded-lg flex items-center border-2 border-indigo-900 gap-2 hover:bg-transparent hover:border-2 hover:border-indigo-900">About Me <i class="fa-solid fa-user text-sm"></i></a>
+                        <a href="" class="border-indigo-900 border-2 px-5 py-2 rounded-lg flex items-center gap-2 hover:bg-indigo-900">Projects <i class="fa-solid fa-eye text-sm"></i></a>
                     </div>
                 </div>
                 <div>
@@ -47,7 +47,16 @@
         <section class="px-20 py-10">
             <h1 class="text-indigo-600 text-2xl font-semibold">About Me</h1>
             <p class="text-sm font-light w-9/12">Hi, my name is Ibnu Khoirul Prasetyo, I'm a full stack web developer and UI designer. I have honed my skill in Web Development and these are some of the technology I use</p>
-            <div class="mb-5"></div>
+            <div class="mb-5 py-10 flex flex-wrap justify-center gap-10">
+                <img src="./assets/reactjs.png" alt="" class="h-16">
+                <img src="./assets/Laravel.png" alt="" class="h-16">
+                <img src="./assets/Javascript.png" alt="" class="h-16">
+                <img src="./assets/Php.png" alt="" class="h-16">
+                <img src="./assets/Express.png" alt="" class="h-16">
+                <img src="./assets/NodeJS.png" alt="" class="h-16">
+                <img src="./assets/Bootstrap.png" alt="" class="h-16">
+                <img src="./assets/Tailwindcss.png" alt="" class="h-10">
+            </div>
             
             <h1 class="text-indigo-600 text-2xl font-semibold">The services I offer:</h1>
             <div class="flex justify-center gap-5 mt-3">
@@ -84,7 +93,7 @@
                     <p class="text-sm font-light">Create a backend for a system so that it can be used on other systems</p>
                 </div>
             </div>
-            <p class="text-center mt-5 text-sm font-light">You can see some of my projects at <a href="" class="text-indigo-600">Github <i class="fa-brands fa-github"></i></a></p>
+            <p class="text-center mt-5 text-sm font-light">You can see some of my projects at <a href="" class="text-indigo-600 hover:text-white">Github <i class="fa-brands fa-github"></i></a></p>
         </section>
 
         <footer>
@@ -92,9 +101,9 @@
                 <h1 class="text-indigo-600 text-2xl font-semibold">Contact With Me:</h1>
                 <p class="text-sm font-light">Satisfied with my work? Feel free to contact me</p>
                 <div class="flex gap-5 mt-5 text-xl">
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
-                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href="" class="hover:text-indigo-600"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" class="hover:text-indigo-600"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="" class="hover:text-indigo-600"><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
             <div class="bg-slate-900 mt-20 text-center font-light text-xs py-2">
@@ -102,5 +111,7 @@
             </div>
         </footer>
     </div>
+
+    <script src="./node_modules/jquery/src/jquery.js"></script>
 </body>
 </html>
