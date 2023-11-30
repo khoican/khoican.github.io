@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,17 +14,17 @@
 </head>
 <body>
     <div class="bg-slate-800 text-white">
-        <nav class="fixed bg-slate-900 flex justify-between items-center px-20 py-5 w-full z-10">
+        <nav id="nav" class="fixed bg-slate-900 flex justify-between items-center px-20 py-5 w-full z-10">
             <h1 class="text-xl font-semibold">Ibnu Khoirul</h1>
             <div class="font-light flex gap-5">
-                <a href="" class="hover:text-indigo-400">Home</a> 
-                <a href="" class="hover:text-indigo-400">About Me</a>
-                <a href="" class="hover:text-indigo-400">Projects</a>
-                <a href="" class="hover:text-indigo-400">Contact</a>
+                <a href="#home" class="hover:text-indigo-400">Home</a> 
+                <a href="#about" class="hover:text-indigo-400">About Me</a>
+                <a href="#project" class="hover:text-indigo-400">Projects</a>
+                <a href="#contact" class="hover:text-indigo-400">Contact</a>
             </div>
         </nav>
 
-        <header class="relative flex px-20 items-end h-screen overflow-hidden ">
+        <header id="home" class="relative flex px-20 items-end h-screen overflow-hidden ">
             <div class="flex w-full">
                 <div class="absolute top-[45vh]">
                     <p class="text-xl font-semibold mb-5">Hello I'm</p>
@@ -37,66 +37,70 @@
                 </div>
                 <div>
                     <div class="w-[30rem] h-[30rem] rounded-full bg-indigo-900 absolute top-[50vh] right-[10vw]"></div>
-                    <img src="./../assets/profile.png" alt="profile" class="absolute w-72 top-[39vh] right-40 brightness-75">
+                    <img src="./assets/profile.png" alt="profile" class="absolute w-72 top-[39vh] right-40 brightness-75">
                 </div>
             </div>
         </header>
 
         <div class="h-20 bg-slate-900"></div>
 
-        <section class="px-20 py-10">
-            <h1 class="text-indigo-600 text-2xl font-semibold">About Me</h1>
-            <p class="text-sm font-light w-9/12">Hi, my name is Ibnu Khoirul Prasetyo, I'm a full stack web developer and UI designer. I have honed my skill in Web Development and these are some of the technology I use</p>
-            <div class="mb-5 py-10 flex flex-wrap justify-center gap-10">
-                <img src="./assets/reactjs.png" alt="" class="h-16">
-                <img src="./assets/Laravel.png" alt="" class="h-16">
-                <img src="./assets/Javascript.png" alt="" class="h-16">
-                <img src="./assets/Php.png" alt="" class="h-16">
-                <img src="./assets/Express.png" alt="" class="h-16">
-                <img src="./assets/NodeJS.png" alt="" class="h-16">
-                <img src="./assets/Bootstrap.png" alt="" class="h-16">
-                <img src="./assets/Tailwindcss.png" alt="" class="h-10">
-            </div>
-            
-            <h1 class="text-indigo-600 text-2xl font-semibold">The services I offer:</h1>
-            <div class="flex justify-center gap-5 mt-3">
-                <div class="w-60 pt-10 pb-5 px-5 border-indigo-600 border-2 rounded-lg text-center">
-                    <i class="fa-solid fa-pen-nib text-5xl"></i>
-                    <h1 class="font-semibold text-lg mt-3">UI/UX DESIGN</h1>
-                    <p class="text-sm font-light">I design beautiful web interface with figma</p>
+        <section id="about">
+            <div class="px-20 py-20">
+                <h1 class="text-indigo-600 text-2xl font-semibold">About Me</h1>
+                <p class="text-sm font-light w-9/12">Hi, my name is Ibnu Khoirul Prasetyo, I'm a full stack web developer and UI designer. I have honed my skill in Web Development and these are some of the technology I use</p>
+                <div class="mb-5 py-10 flex flex-wrap justify-center gap-10">
+                    <img src="./assets/reactjs.png" alt="" class="h-16">
+                    <img src="./assets/Laravel.png" alt="" class="h-16">
+                    <img src="./assets/Javascript.png" alt="" class="h-16">
+                    <img src="./assets/Php.png" alt="" class="h-16">
+                    <img src="./assets/Express.png" alt="" class="h-16">
+                    <img src="./assets/NodeJS.png" alt="" class="h-16">
+                    <img src="./assets/Bootstrap.png" alt="" class="h-16">
+                    <img src="./assets/Tailwindcss.png" alt="" class="h-10">
                 </div>
-                <div class="w-60 pt-10 pb-5 px-5 border-white border-2 rounded-lg text-center">
-                    <i class="fa-regular fa-window-maximize text-5xl"></i>
-                    <h1 class="font-semibold text-lg text-indigo-600 mt-3">WEB DEVELOPMENT</h1>
-                    <p class="text-sm font-light">I create beautiful interface with HTML, CSS & JavaScript and also framework like ReactJS & Laravel</p>
+                
+                <h1 class="text-indigo-600 text-2xl font-semibold">The services I offer:</h1>
+                <div class="flex justify-center gap-5 mt-3">
+                    <div class="w-60 pt-10 pb-5 px-5 border-indigo-600 border-2 rounded-lg text-center">
+                        <i class="fa-solid fa-pen-nib text-5xl"></i>
+                        <h1 class="font-semibold text-lg mt-3">UI/UX DESIGN</h1>
+                        <p class="text-sm font-light">I design beautiful web interface with figma</p>
+                    </div>
+                    <div class="w-60 pt-10 pb-5 px-5 border-white border-2 rounded-lg text-center">
+                        <i class="fa-regular fa-window-maximize text-5xl"></i>
+                        <h1 class="font-semibold text-lg text-indigo-600 mt-3">WEB DEVELOPMENT</h1>
+                        <p class="text-sm font-light">I create beautiful interface with HTML, CSS & JavaScript and also framework like ReactJS & Laravel</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="px-20 py-10">
-            <h1 class="text-indigo-600 text-2xl font-semibold">Project</h1>
-            <p class="text-sm font-light">I have some project that I have created</p>
-            <div class="flex gap-5 justify-center mt-5">
-                <div class="w-60 pt-10 pb-5 px-5 border-indigo-600 border-2 rounded-lg text-center">
-                    <i class="fa-solid fa-store text-5xl"></i>
-                    <h1 class="font-semibold text-lg mt-3">Point Of Sales</h1>
-                    <p class="text-sm font-light">Create a management system to manage the store</p>
+        <section id="project">
+            <div class="px-20 py-20">
+                <h1 class="text-indigo-600 text-2xl font-semibold">Project</h1>
+                <p class="text-sm font-light">I have some project that I have created</p>
+                <div class="flex gap-5 justify-center mt-5">
+                    <div class="w-60 pt-10 pb-5 px-5 border-indigo-600 border-2 rounded-lg text-center">
+                        <i class="fa-solid fa-store text-5xl"></i>
+                        <h1 class="font-semibold text-lg mt-3">Point Of Sales</h1>
+                        <p class="text-sm font-light">Create a management system to manage the store</p>
+                    </div>
+                    <div class="w-60 pt-10 pb-5 px-5 border-white border-2 rounded-lg text-center">
+                        <i class="fa-solid fa-bars-progress text-5xl"></i>
+                        <h1 class="text-indigo-600 font-semibold text-lg mt-3">Portfolio</h1>
+                        <p class="text-sm font-light">Create a website to showcase one's project</p>
+                    </div>
+                    <div class="w-60 pt-10 pb-5 px-5 border-indigo-600 border-2 rounded-lg text-center">
+                        <i class="fa-solid fa-code text-5xl"></i>
+                        <h1 class="font-semibold text-lg mt-3">Aplication Programming Interface</h1>
+                        <p class="text-sm font-light">Create a backend for a system so that it can be used on other systems</p>
+                    </div>
                 </div>
-                <div class="w-60 pt-10 pb-5 px-5 border-white border-2 rounded-lg text-center">
-                    <i class="fa-solid fa-bars-progress text-5xl"></i>
-                    <h1 class="text-indigo-600 font-semibold text-lg mt-3">Portfolio</h1>
-                    <p class="text-sm font-light">Create a website to showcase one's project</p>
-                </div>
-                <div class="w-60 pt-10 pb-5 px-5 border-indigo-600 border-2 rounded-lg text-center">
-                    <i class="fa-solid fa-code text-5xl"></i>
-                    <h1 class="font-semibold text-lg mt-3">Aplication Programming Interface</h1>
-                    <p class="text-sm font-light">Create a backend for a system so that it can be used on other systems</p>
-                </div>
+                <p class="text-center mt-5 text-sm font-light">You can see some of my projects at <a href="" class="text-indigo-600 hover:text-white">Github <i class="fa-brands fa-github"></i></a></p>
             </div>
-            <p class="text-center mt-5 text-sm font-light">You can see some of my projects at <a href="" class="text-indigo-600 hover:text-white">Github <i class="fa-brands fa-github"></i></a></p>
         </section>
 
-        <footer>
+        <footer id="contact">
             <div class="pt-10 px-20">
                 <h1 class="text-indigo-600 text-2xl font-semibold">Contact With Me:</h1>
                 <p class="text-sm font-light">Satisfied with my work? Feel free to contact me</p>
@@ -111,7 +115,7 @@
             </div>
         </footer>
     </div>
-
-    <script src="./node_modules/jquery/src/jquery.js"></script>
+    
+    <script src="./src/script.js" type="text/JavaScript"></script>
 </body>
 </html>
