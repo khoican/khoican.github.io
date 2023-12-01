@@ -15,8 +15,8 @@
 
 </head>
 <body>
-    <div class="bg-slate-800 text-white">
-        <nav id="nav" class="fixed bg-slate-900 flex justify-between items-center px-20 py-5 w-full z-20">
+    <div class="bg-slate-800 text-slate-300">
+        <nav id="nav" class="fixed bg-slate-900 flex justify-between items-center px-20 py-5 w-full z-20 text-white">
             <h1 class="text-xl font-semibold">Ibnu Khoirul</h1>
             <div id="hamburger" class="hidden xl:block">
                 <i class="fa-solid fa-bars cursor-pointer text-xl"></i>
@@ -30,15 +30,15 @@
             </div>
         </nav>
 
-        <header id="home" class="relative flex px-20 items-end h-screen overflow-hidden ">
+        <header id="home" class="relative flex px-20 items-end h-screen overflow-hidden text-white">
             <div class="flex w-full">
-                <div class="absolute top-[45vh] z-10">
+                <div class="absolute top-[30vh] z-10 xl:flex xl:flex-col xl:items-center w-full">
                     <p class="text-xl font-semibold mb-5">Hello I'm</p>
                     <h1 class="text-7xl font-bold mb-2">Ibnu Khoirul</h1>
                     <p class="text-lg font-light">Freelancer Web Developer & UI/UX Designer</p>
                     <div class="flex gap-5 mt-3">
-                        <a href="" class="bg-indigo-900 px-5 py-2 rounded-lg flex items-center border-2 border-indigo-900 gap-2 hover:bg-transparent hover:border-2 hover:border-indigo-900">About Me <i class="fa-solid fa-user text-sm"></i></a>
-                        <a href="" class="border-indigo-900 border-2 px-5 py-2 rounded-lg flex items-center gap-2 hover:bg-indigo-900">Projects <i class="fa-solid fa-eye text-sm"></i></a>
+                        <a href="#about" class="bg-indigo-900 px-5 py-2 rounded-lg flex items-center border-2 border-indigo-900 gap-2 hover:bg-transparent hover:border-2 hover:border-indigo-900">About Me <i class="fa-solid fa-user text-sm"></i></a>
+                        <a href="#project" class="border-indigo-900 border-2 px-5 py-2 rounded-lg flex items-center gap-2 hover:bg-indigo-900">Projects <i class="fa-solid fa-eye text-sm"></i></a>
                     </div>
                 </div>
                 <div>
@@ -51,30 +51,30 @@
         <div class="h-20 bg-slate-900"></div>
 
         <section id="about">
-            <div class="px-20 py-20">
-                <h1 class="text-indigo-600 text-2xl font-semibold">About Me</h1>
+            <div class="px-20 pt-20 pb-5">
+                <h1 class="text-2xl font-semibold text-white">About Me</h1>
                 <p class="text-sm font-light w-9/12">Hi, my name is Ibnu Khoirul Prasetyo, I'm a full stack web developer and UI designer. I have honed my skill in Web Development and these are some of the technology I use</p>
-                <div class="mb-5 py-10 flex flex-wrap justify-center gap-10">
+                <div class="mb-7 mt-5 w-9/12 mx-auto py-5 flex flex-wrap justify-center items-center gap-10">
                     <img src="./assets/reactjs.png" alt="" class="h-16">
                     <img src="./assets/Laravel.png" alt="" class="h-16">
                     <img src="./assets/Javascript.png" alt="" class="h-16">
                     <img src="./assets/Php.png" alt="" class="h-16">
+                    <img src="./assets/Tailwindcss.png" alt="" class="h-10">
                     <img src="./assets/Express.png" alt="" class="h-16">
                     <img src="./assets/NodeJS.png" alt="" class="h-16">
                     <img src="./assets/Bootstrap.png" alt="" class="h-16">
-                    <img src="./assets/Tailwindcss.png" alt="" class="h-10">
                 </div>
                 
-                <h1 class="text-indigo-600 text-2xl font-semibold">The services I offer:</h1>
+                <h1 class="text-2xl font-semibold text-white">The services I offer:</h1>
                 <div class="flex justify-center gap-5 mt-3">
-                    <div class="w-60 pt-10 pb-5 px-5 border-indigo-600 border-2 rounded-lg text-center delay-[150ms] duration-[700ms] taos:translate-y-[50px] taos:opacity-0" data-taos-offset="300">
-                        <i class="fa-solid fa-pen-nib text-5xl"></i>
-                        <h1 class="font-semibold text-lg mt-3">UI/UX DESIGN</h1>
+                    <div class="w-60 pt-10 pb-5 px-5 border-white border-2 rounded-lg text-center delay-[150ms] duration-[700ms] taos:translate-y-[50px] taos:opacity-0" data-taos-offset="300">
+                        <i class="fa-solid fa-pen-nib text-5xl text-white"></i>
+                        <h1 class="font-semibold text-lg mt-3 text-white">UI/UX DESIGN</h1>
                         <p class="text-sm font-light">I design beautiful web interface with figma</p>
                     </div>
                     <div class="w-60 pt-10 pb-5 px-5 border-white border-2 rounded-lg text-center delay-[300ms] duration-[700ms] taos:translate-y-[50px] taos:opacity-0" data-taos-offset="300">
-                        <i class="fa-regular fa-window-maximize text-5xl"></i>
-                        <h1 class="font-semibold text-lg text-indigo-600 mt-3">WEB DEVELOPMENT</h1>
+                        <i class="fa-regular fa-window-maximize text-5xl text-white"></i>
+                        <h1 class="font-semibold text-lg mt-3 text-white">WEB DEVELOPMENT</h1>
                         <p class="text-sm font-light">I create beautiful interface with HTML, CSS & JavaScript and also framework like ReactJS & Laravel</p>
                     </div>
                 </div>
@@ -83,37 +83,46 @@
 
         <section id="project">
             <div class="px-20 py-20">
-                <h1 class="text-indigo-600 text-2xl font-semibold">Project</h1>
+                <h1 class="text-2xl font-semibold text-white">Project</h1>
                 <p class="text-sm font-light">I have some project that I have created</p>
                 <div class="flex gap-5 justify-center mt-5">
-                    <div class="w-60 pt-10 pb-5 px-5 border-indigo-600 border-2 rounded-lg text-center delay-[150ms] duration-[700ms] taos:translate-y-[50px] taos:opacity-0" data-taos-offset="300">
-                        <i class="fa-solid fa-store text-5xl"></i>
-                        <h1 class="font-semibold text-lg mt-3">Point Of Sales</h1>
-                        <p class="text-sm font-light">Create a management system to manage the store</p>
+                    <div class="flex flex-col justify-between w-60 pt-10 pb-5 px-5 border-2 rounded-lg text-center delay-[150ms] duration-[700ms] taos:translate-y-[50px] taos:opacity-0" data-taos-offset="300">
+                        <div>
+                            <i class="fa-solid fa-store text-5xl text-white"></i>
+                            <h1 class="font-semibold text-lg mt-3 text-white">Point Of Sales</h1>
+                            <p class="text-sm font-light">Create a management system to manage the store</p>
+                        </div>
+                        <a href="https://github.com/khoican/kelod_laundry" class="px-10 py-3 rounded-lg bg-indigo-600 border-2 border-indigo-600 text-white mt-5 hover:bg-transparent" target="_blank">Github Repo</a>
                     </div>
-                    <div class="w-60 pt-10 pb-5 px-5 border-white border-2 rounded-lg text-center delay-[300ms] duration-[700ms] taos:translate-y-[50px] taos:opacity-0" data-taos-offset="300">
-                        <i class="fa-solid fa-bars-progress text-5xl"></i>
-                        <h1 class="text-indigo-600 font-semibold text-lg mt-3">Portfolio</h1>
-                        <p class="text-sm font-light">Create a website to showcase one's project</p>
+                    <div class="flex flex-col justify-between w-60 pt-10 pb-5 px-5 border-white border-2 rounded-lg text-center delay-[300ms] duration-[700ms] taos:translate-y-[50px] taos:opacity-0" data-taos-offset="300">
+                        <div>
+                            <i class="fa-solid fa-bars-progress text-5xl text-white"></i>
+                            <h1 class="font-semibold text-lg mt-3 text-white">Portfolio</h1>
+                            <p class="text-sm font-light">Create a website to showcase one's project</p>
+                        </div>
+                        <a href="https://github.com/khoican/portfolio" class="px-10 py-3 rounded-lg bg-indigo-600 border-2 border-indigo-600 text-white mt-5 hover:bg-transparent" target="_blank">Github Repo</a>
                     </div>
-                    <div class="w-60 pt-10 pb-5 px-5 border-indigo-600 border-2 rounded-lg text-center delay-[450ms] duration-[700ms] taos:translate-y-[50px] taos:opacity-0" data-taos-offset="300">
-                        <i class="fa-solid fa-code text-5xl"></i>
-                        <h1 class="font-semibold text-lg mt-3">Aplication Programming Interface</h1>
-                        <p class="text-sm font-light">Create a backend for a system so that it can be used on other systems</p>
+                    <div class="flex flex-col justify-between w-60 pt-10 pb-5 px-5 border-2 rounded-lg text-center delay-[450ms] duration-[700ms] taos:translate-y-[50px] taos:opacity-0" data-taos-offset="300">
+                        <div>
+                            <i class="fa-solid fa-code text-5xl text-white"></i>
+                            <h1 class="font-semibold text-lg mt-3 text-white">Aplication Programming Interface</h1>
+                            <p class="text-sm font-light">Create a backend for a system so that it can be used on other systems</p>
+                        </div>
+                        <a href="https://github.com/khoican/kicks" class="px-10 py-3 rounded-lg bg-indigo-600 border-2 border-indigo-600 text-white mt-5 hover:bg-transparent" target="_blank">Github Repo</a>
                     </div>
                 </div>
-                <p class="text-center mt-5 text-sm font-light">You can see some of my projects at <a href="" class="text-indigo-600 hover:text-white">Github <i class="fa-brands fa-github"></i></a></p>
+                <p class="text-center mt-5 text-sm font-light">You can see some of my projects at <a href="https://github.com/khoican" class="text-indigo-600 hover:text-white" target="_blank">Github <i class="fa-brands fa-github"></i></a></p>
             </div>
         </section>
 
         <footer id="contact">
             <div class="pt-10 px-20">
-                <h1 class="text-indigo-600 text-2xl font-semibold">Contact With Me:</h1>
+                <h1 class="text-2xl font-semibold text-white">Contact With Me:</h1>
                 <p class="text-sm font-light">Satisfied with my work? Feel free to contact me</p>
                 <div class="flex gap-5 mt-5 text-xl">
-                    <a href="" class="hover:text-indigo-600"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="" class="hover:text-indigo-600"><i class="fa-brands fa-whatsapp"></i></a>
-                    <a href="" class="hover:text-indigo-600"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/ibnukh__/" class="hover:text-indigo-600" taget="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/628819572019" class="hover:text-indigo-600" taget="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://github.com/khoican" class="hover:text-indigo-600" taget="_blank"><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
             <div class="bg-slate-900 mt-20 text-center font-light text-xs py-2">
