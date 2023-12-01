@@ -2648,6 +2648,64 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   text-align: center;
 }
 
+@media (max-width: 640px) {
+  .lg\:right-\[-5vw\] {
+    right: -5vw;
+  }
+
+  .lg\:right-\[7vw\] {
+    right: 7vw;
+  }
+
+  .lg\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .lg\:h-\[25rem\] {
+    height: 25rem;
+  }
+
+  .lg\:h-6 {
+    height: 1.5rem;
+  }
+
+  .lg\:w-56 {
+    width: 14rem;
+  }
+
+  .lg\:w-\[25rem\] {
+    width: 25rem;
+  }
+
+  .lg\:flex-col {
+    flex-direction: column;
+  }
+
+  .lg\:items-center {
+    align-items: center;
+  }
+
+  .lg\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .lg\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .lg\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   @media (max-width: 640px) {
     .dark\:lg\:hover\:\[paint-order\:markers\]:hover {
@@ -2677,16 +2735,12 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
     display: block;
   }
 
-  .xl\:flex {
-    display: flex;
+  .xl\:w-screen {
+    width: 100vw;
   }
 
   .xl\:flex-col {
     flex-direction: column;
-  }
-
-  .xl\:items-center {
-    align-items: center;
   }
 
   .xl\:bg-white {
