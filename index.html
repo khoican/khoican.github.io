@@ -16,19 +16,23 @@
 </head>
 <body>
     <div class="bg-slate-800 text-white">
-        <nav id="nav" class="fixed bg-slate-900 flex justify-between items-center px-20 py-5 w-full z-10">
+        <nav id="nav" class="fixed bg-slate-900 flex justify-between items-center px-20 py-5 w-full z-20">
             <h1 class="text-xl font-semibold">Ibnu Khoirul</h1>
-            <div class="font-light flex gap-5">
+            <div id="hamburger" class="hidden xl:block">
+                <i class="fa-solid fa-bars cursor-pointer text-xl"></i>
+            </div>
+            <div id="dropdown" class="font-light flex items-center gap-5 xl:flex-col xl:absolute xl:right-0 xl:px-20 xl:pt-10 xl:pb-5 xl:top-0 xl:bg-white xl:text-indigo-950 xl:shadow-lg xl:left-full">
                 <a href="#home" class="hover:text-indigo-400">Home</a> 
                 <a href="#about" class="hover:text-indigo-400">About Me</a>
                 <a href="#project" class="hover:text-indigo-400">Projects</a>
                 <a href="#contact" class="hover:text-indigo-400">Contact</a>
+                <p id="hide" class="hidden xl:block border-2 rounded-md border-indigo-950 px-5 py-2">Hide</p>
             </div>
         </nav>
 
         <header id="home" class="relative flex px-20 items-end h-screen overflow-hidden ">
             <div class="flex w-full">
-                <div class="absolute top-[45vh]">
+                <div class="absolute top-[45vh] z-10">
                     <p class="text-xl font-semibold mb-5">Hello I'm</p>
                     <h1 class="text-7xl font-bold mb-2">Ibnu Khoirul</h1>
                     <p class="text-lg font-light">Freelancer Web Developer & UI/UX Designer</p>
@@ -38,8 +42,8 @@
                     </div>
                 </div>
                 <div>
-                    <div class="w-[30rem] h-[30rem] rounded-full bg-indigo-900 absolute top-[50vh] right-[10vw]"></div>
-                    <img src="./assets/profile.png" alt="profile" class="absolute w-72 top-[39vh] right-40 brightness-75">
+                    <div class="w-[30rem] h-[30rem] rounded-full bg-indigo-900 absolute bottom-[-20vh] right-[10vw]"></div>
+                    <img src="./assets/profile.png" alt="profile" class="absolute w-72 bottom-[0vh] right-40 brightness-75">
                 </div>
             </div>
         </header>

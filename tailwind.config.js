@@ -13,6 +13,10 @@ module.exports = {
         'sans': ["Poppins", ...defaultTheme.fontFamily.sans],
       }
     },
+    screens: {
+      'lg': {'max': '640px'},
+      'xl': {'max': '1024px'},
+    }
   },
   plugins: [
     require('taos/plugin')
