@@ -2661,12 +2661,12 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
     margin-bottom: 0px;
   }
 
-  .lg\:h-\[25rem\] {
-    height: 25rem;
-  }
-
   .lg\:h-6 {
     height: 1.5rem;
+  }
+
+  .lg\:h-\[25rem\] {
+    height: 25rem;
   }
 
   .lg\:w-56 {

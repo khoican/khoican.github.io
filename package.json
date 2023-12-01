@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "tailwindcss build ./src/style.css -o ./src/output.css --watch",
-    "prod": "NODE_ENV=production npx tailwindcss build ./src/tailwind.css -o ./public/tailwind.css"
+    "prod": "NODE_ENV=production npx tailwindcss build ./src/style.css -o ./src/output.css"
   },
   "devDependencies": {
     "tailwindcss": "^3.3.5"
